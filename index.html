@@ -1,76 +1,138 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Concord Ticketing</title>
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Concord Ticketing </title>
-
-
-    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.7.2/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@4.7.2/dist/full.min.css"
+      rel="stylesheet"
+      type="text/css"
+    />
     <script src="https://cdn.tailwindcss.com"></script>
-</head>
+  </head>
 
-<body>
+  <body>
+    <header class="w-auto lg:w-[1200px] m-auto">
+      <div class="navbar bg-base-100">
+        <div class="navbar-start">
+          <a class="btn btn-ghost text-xl lg:text-3xl font-extrabold uppercase"
+            >Concord Journey</a
+          >
+        </div>
 
-    <header class=" w-auto lg:w-[1200px] m-auto ">
-        <div class="navbar bg-base-100">
-            <div class="navbar-start">
-              <a class="btn btn-ghost text-xl lg:text-3xl font-extrabold uppercase">Concord Journey</a>
-            </div>
-
-
-
-            <div class="navbar-end">
-                <div class=" flex px-6 py-2 bg-slate-200 border-solid border-2 text-xl gap-3 rounded-lg">
-
-                    <a class="text-green-500">BUS</a>
-                    <img src="images/bus-icon.png" alt="">
-                </div>
-            
-            </div>
+        <div class="navbar-end">
+          <div
+            class="flex px-6 py-2 bg-slate-200 border-solid border-2 text-xl gap-3 rounded-lg"
+          >
+            <a class="text-green-500">BUS</a>
+            <img src="images/bus-icon.png" alt="" />
           </div>
+        </div>
+      </div>
     </header>
 
     <main>
-
-        <section class="w-auto lg:w-[1200px] m-auto ">
-
-            <div class=" m-10  ">
-
-                <div class="hero p-1 lg:p-20 bg-no-repeat h-[300px] lg:h-[550px] " style="background-image: url(images/banner.png);">
-                    <div class=" bg-opacity-10"></div>
-                    <div class="hero-content ">
-                      <div class="text-center ">
-                        <h1 class=" mb- 2 lg:mb-5 text-xl lg:text-5xl font-bold text-white">SAFE JOURNEY WITH </h1>
-                        <h1 class="mb- 2 lg:mb-5 text-xl lg:text-5xl  font-bold  text-[#1DD100]">CONCORD</h1>
-                        <p class="mb- 2 lg:mb-5 text-white">Perhaps travel cannot prevent bigotry, but by demonstrating that all peoples cry, laugh, eat, worry, and die, it can introduce the idea that if we try and understand each other, we may even become friends.</p>
-                        <button class=" bg-[#1DD100] text-xl font-extra-bold p-2 lg:p-5 mt-1 rounded-lg">BUY TICKETS</button>
-                      </div>
-                    </div>
-                  </div>
-
-
+      <section class="w-auto lg:w-[1200px] m-auto">
+        <div class="m-10">
+          <div
+            class="hero p-1 lg:p-20 bg-no-repeat h-[300px] lg:h-[550px]"
+            style="background-image: url(images/banner.png)"
+          >
+            <div class="bg-opacity-10"></div>
+            <div class="hero-content">
+              <div class="text-center">
+                <h1
+                  class="mb- 2 lg:mb-5 text-xl lg:text-5xl font-bold text-white"
+                >
+                  SAFE JOURNEY WITH
+                </h1>
+                <h1
+                  class="mb- 2 lg:mb-5 text-xl lg:text-5xl font-bold text-[#1DD100]"
+                >
+                  CONCORD
+                </h1>
+                <p class="mb- 2 lg:mb-5 text-white">
+                  Perhaps travel cannot prevent bigotry, but by demonstrating
+                  that all peoples cry, laugh, eat, worry, and die, it can
+                  introduce the idea that if we try and understand each other,
+                  we may even become friends.
+                </p>
+                <button
+                  class="bg-[#1DD100] text-xl font-extra-bold p-2 lg:p-5 mt-1 rounded-lg"
+                >
+                  BUY TICKETS
+                </button>
+              </div>
             </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- coupon desing -->
+
+      <section class="w-auto lg:w-[1200px] m-auto">
+        <div class="text-3xl text-center font-extrabold">
+            <h2>Best Offer for You</h2>
+        </div>
+
+
+<div class="flex justify-around my-10">
+
+
+    <div class="flex-col lg:flex ">
 
             
-        </section>
+        <div class="bg-[#FFBF0F] p-2 lg:p-10 rounded-lg">
+          <h2 class="text-2xl lg:text-4xl font-extrabold">15% OFF</h2>
 
-        <!-- coupon desing -->
+          <p class="text-xl font-bold">on your next purchase</p>
+
+          <p class="text-base font-light">use by January 2024</p>
+        </div>
+
+        <div class="bg-[#FFBF0F] p-1 lg:p-5 rounded-lg ">
+          <h2 class="text-2xl lg:text-4xl font-extrabold mt-10">NEW15</h2>
+
+          <p class="text-base font-light">coupon code</p>
+        </div>
 
 
-        <section class=" w-auto lg:w-[1200px] m-auto " >
+      </div>
+
+      <div class="flex-col lg:flex">
 
 
+        <div class="bg-[#F78C9C] p-2 lg:p-10 rounded-lg">
+          <h2 class="text-2xl lg:text-4xl font-extrabold">20% OFF</h2>
+
+          <p class="text-xl font-bold">on your next purchase</p>
+
+          <p class="text-base font-light">use by January 2024</p>
+        </div>
+
+        <div class="bg-[#F78C9C] p-1 lg:p-5 rounded-lg ">
+          <h2 class="text-2xl lg:text-4xl font-extrabold mt-10">Couple 20</h2>
+
+          <p class="text-base font-light">
+            Coupon Code</p>
+        </div>
 
 
-            
+      </div>
 
+</div>
 
-        </section>
+<div class="text-center mb-10">
+    <button class="btn btn-outline btn-success">See all offers</button>
     
+</div>
+
+      </section>
+
+
+      
     </main>
-
-</body>
-
+  </body>
 </html>
