@@ -208,7 +208,7 @@
       <!-- Ticket Booking Setup design -->
 
       <section class="w-auto lg:w-[1200px] m-auto">
-        <div class="flex">
+        <div class="flex flex-col lg:flex-row">
           <div class="flex-5 p-10">
             <h2 class="text-3xl font-bold">Select Your Seat</h2>
             <div
@@ -228,70 +228,72 @@
             ></div>
 
             <div>
-              <div class="grid grid-cols-5 gap-6">
-                <div class="px-10 py-5 rounded-lg"></div>
-                <div class="px-10 py-5 rounded-lg"></div>
-                <div class="px-10 py-5 rounded-lg"></div>
-                <div class="px-10 py-5 rounded-lg"></div>
+              <div class="grid grid-cols-5 gap-1 lg:gap-6">
+                <div class="px-4 lg:px-10 py-2 lg:py-5 rounded-lg"></div>
+                <div class="px-4 lg:px-10 py-2 lg:py-5 rounded-lg"></div>
+                <div class="px-4 lg:px-10 py-2 lg:py-5 rounded-lg"></div>
+                <div class="px-4 lg:px-10 py-2 lg:py-5 rounded-lg"></div>
 
-                <button class="btn primary">
-                  <div class="bg-slate-200 rounded-lg">Go</div>
-                </button>
-                <div class="btn">
-                  <div id="A" class="bg-slate-200 rounded-lg">A</div>
+                <div class="bg-slate-200 rounded-lg">Go</div>
+                <div id="A" class="bg-slate-200 px-4 lg:px-10 py-2 lg:py-5 rounded-lg">A</div>
+
+                <div
+                  onclick="click()"
+                  id="A1"
+                  class="bg-slate-200 px-4 lg:px-10 py-2 lg:py-5 rounded-lg"
+                >
+                  A1
                 </div>
+                <div id="A2" class="bg-slate-200 px-4 lg:px-10 py-2 lg:py-5 rounded-lg">A2</div>
+                <div id="A3" class="bg-slate-200 px-4 lg:px-10 py-2 lg:py-5 rounded-lg">A3</div>
+                <div id="A4" class="bg-slate-200 px-4 lg:px-10 py-2 lg:py-5 rounded-lg">A4</div>
+                <div id="B" class="bg-slate-200 px-4 lg:px-10 py-2 lg:py-5 rounded-lg">B</div>
+                <div id="B1" class="bg-slate-200 px-4 lg:px-10 py-2 lg:py-5 rounded-lg">B1</div>
+                <div id="B2" class="bg-slate-200 px-4 lg:px-10 py-2 lg:py-5 rounded-lg">B2</div>
+                <div id="B3" class="bg-slate-200 px-4 lg:px-10 py-2 lg:py-5 rounded-lg">B3</div>
+                <div id="B4" class="bg-slate-200 px-4 lg:px-10 py-2 lg:py-5 rounded-lg">B4</div>
+                <div id="C" class="bg-slate-200 px-4 lg:px-10 py-2 lg:py-5 rounded-lg">C</div>
+                <div id="C1" class="bg-slate-200 px-4 lg:px-10 py-2 lg:py-5 rounded-lg">C1</div>
+                <div id="C2" class="bg-slate-200 px-4 lg:px-10 py-2 lg:py-5 rounded-lg">C2</div>
+                <div id="C3" class="bg-slate-200 px-4 lg:px-10 py-2 lg:py-5 rounded-lg">C3</div>
+                <div id="C4" class="bg-slate-200 px-4 lg:px-10 py-2 lg:py-5 rounded-lg">C4</div>
+                <div id="D" class="bg-slate-200 px-4 lg:px-10 py-2 lg:py-5 rounded-lg">D</div>
+                <div id="D1" class="bg-slate-200 px-4 lg:px-10 py-2 lg:py-5 rounded-lg">D1</div>
+                <div id="D2" class="bg-slate-200 px-4 lg:px-10 py-2 lg:py-5 rounded-lg">D2</div>
+                <div id="D3" class="bg-slate-200 px-4 lg:px-10 py-2 lg:py-5 rounded-lg">D3</div>
+                <div id="D4" class="bg-slate-200 px-4 lg:px-10 py-2 lg:py-5 rounded-lg">D4</div>
 
-                <div id="A1" class="bg-slate-200 px-10 py-5 rounded-lg">A1</div>
-                <div id="A2" class="bg-slate-200 px-10 py-5 rounded-lg">A2</div>
-                <div id="A3" class="bg-slate-200 px-10 py-5 rounded-lg">A3</div>
-                <div id="A4" class="bg-slate-200 px-10 py-5 rounded-lg">A4</div>
-                <div id="B" class="bg-slate-200 px-10 py-5 rounded-lg">B</div>
-                <div id="B1" class="bg-slate-200 px-10 py-5 rounded-lg">B1</div>
-                <div id="B2" class="bg-slate-200 px-10 py-5 rounded-lg">B2</div>
-                <div id="B3" class="bg-slate-200 px-10 py-5 rounded-lg">B3</div>
-                <div id="B4" class="bg-slate-200 px-10 py-5 rounded-lg">B4</div>
-                <div id="C" class="bg-slate-200 px-10 py-5 rounded-lg">C</div>
-                <div id="C1" class="bg-slate-200 px-10 py-5 rounded-lg">C1</div>
-                <div id="C2" class="bg-slate-200 px-10 py-5 rounded-lg">C2</div>
-                <div id="C3" class="bg-slate-200 px-10 py-5 rounded-lg">C3</div>
-                <div id="C4" class="bg-slate-200 px-10 py-5 rounded-lg">C4</div>
-                <div id="D" class="bg-slate-200 px-10 py-5 rounded-lg">D</div>
-                <div id="D1" class="bg-slate-200 px-10 py-5 rounded-lg">D1</div>
-                <div id="D2" class="bg-slate-200 px-10 py-5 rounded-lg">D2</div>
-                <div id="D3" class="bg-slate-200 px-10 py-5 rounded-lg">D3</div>
-                <div id="D4" class="bg-slate-200 px-10 py-5 rounded-lg">D4</div>
+                <div id="E" class="bg-slate-200 px-4 lg:px-10 py-2 lg:py-5 rounded-lg">E</div>
+                <div id="E1" class="bg-slate-200 px-4 lg:px-10 py-2 lg:py-5 rounded-lg">E1</div>
+                <div id="E2" class="bg-slate-200 px-4 lg:px-10 py-2 lg:py-5 rounded-lg">E2</div>
+                <div id="E3" class="bg-slate-200 px-4 lg:px-10 py-2 lg:py-5 rounded-lg">E3</div>
+                <div id="E4" class="bg-slate-200 px-4 lg:px-10 py-2 lg:py-5 rounded-lg">E4</div>
+                <div id="F" class="bg-slate-200 px-4 lg:px-10 py-2 lg:py-5 rounded-lg">F</div>
+                <div id="F1" class="bg-slate-200 px-4 lg:px-10 py-2 lg:py-5 rounded-lg">F1</div>
+                <div id="F2" class="bg-slate-200 px-4 lg:px-10 py-2 lg:py-5 rounded-lg">F2</div>
+                <div id="F3" class="bg-slate-200 px-4 lg:px-10 py-2 lg:py-5 rounded-lg">F3</div>
+                <div id="F4" class="bg-slate-200 px-4 lg:px-10 py-2 lg:py-5 rounded-lg">F4</div>
+                <div id="G" class="bg-slate-200 px-4 lg:px-10 py-2 lg:py-5 rounded-lg">G</div>
+                <div id="G1" class="bg-slate-200 px-4 lg:px-10 py-2 lg:py-5 rounded-lg">G1</div>
+                <div id="G2" class="bg-slate-200 px-4 lg:px-10 py-2 lg:py-5 rounded-lg">G2</div>
+                <div id="G3" class="bg-slate-200 px-4 lg:px-10 py-2 lg:py-5 rounded-lg">G3</div>
+                <div id="G4" class="bg-slate-200 px-4 lg:px-10 py-2 lg:py-5 rounded-lg">G4</div>
+                <div id="H" class="bg-slate-200 px-4 lg:px-10 py-2 lg:py-5 rounded-lg">H</div>
+                <div id="H1" class="bg-slate-200 px-4 lg:px-10 py-2 lg:py-5 rounded-lg">H1</div>
+                <div id="H2" class="bg-slate-200 px-4 lg:px-10 py-2 lg:py-5 rounded-lg">H2</div>
+                <div id="H3" class="bg-slate-200 px-4 lg:px-10 py-2 lg:py-5 rounded-lg">H3</div>
+                <div id="H4" class="bg-slate-200 px-4 lg:px-10 py-2 lg:py-5 rounded-lg">H4</div>
 
-                <div id="E" class="bg-slate-200 px-10 py-5 rounded-lg">E</div>
-                <div id="E1" class="bg-slate-200 px-10 py-5 rounded-lg">E1</div>
-                <div id="E2" class="bg-slate-200 px-10 py-5 rounded-lg">E2</div>
-                <div id="E3" class="bg-slate-200 px-10 py-5 rounded-lg">E3</div>
-                <div id="E4" class="bg-slate-200 px-10 py-5 rounded-lg">E4</div>
-                <div id="F" class="bg-slate-200 px-10 py-5 rounded-lg">F</div>
-                <div id="F1" class="bg-slate-200 px-10 py-5 rounded-lg">F1</div>
-                <div id="F2" class="bg-slate-200 px-10 py-5 rounded-lg">F2</div>
-                <div id="F3" class="bg-slate-200 px-10 py-5 rounded-lg">F3</div>
-                <div id="F4" class="bg-slate-200 px-10 py-5 rounded-lg">F4</div>
-                <div id="G" class="bg-slate-200 px-10 py-5 rounded-lg">G</div>
-                <div id="G1" class="bg-slate-200 px-10 py-5 rounded-lg">G1</div>
-                <div id="G2" class="bg-slate-200 px-10 py-5 rounded-lg">G2</div>
-                <div id="G3" class="bg-slate-200 px-10 py-5 rounded-lg">G3</div>
-                <div id="G4" class="bg-slate-200 px-10 py-5 rounded-lg">G4</div>
-                <div id="H" class="bg-slate-200 px-10 py-5 rounded-lg">H</div>
-                <div id="H1" class="bg-slate-200 px-10 py-5 rounded-lg">H1</div>
-                <div id="H2" class="bg-slate-200 px-10 py-5 rounded-lg">H2</div>
-                <div id="H3" class="bg-slate-200 px-10 py-5 rounded-lg">H3</div>
-                <div id="H4" class="bg-slate-200 px-10 py-5 rounded-lg">H4</div>
-
-                <div id="I" class="bg-slate-200 px-10 py-5 rounded-lg">I</div>
-                <div id="I1" class="bg-slate-200 px-10 py-5 rounded-lg">I1</div>
-                <div id="I2" class="bg-slate-200 px-10 py-5 rounded-lg">I2</div>
-                <div id="I3" class="bg-slate-200 px-10 py-5 rounded-lg">I3</div>
-                <div id="I4" class="bg-slate-200 px-10 py-5 rounded-lg">I4</div>
-                <div id="J" class="bg-slate-200 px-10 py-5 rounded-lg">J</div>
-                <div id="J1" class="bg-slate-200 px-10 py-5 rounded-lg">J1</div>
-                <div id="J2" class="bg-slate-200 px-10 py-5 rounded-lg">J2</div>
-                <div id="J3" class="bg-slate-200 px-10 py-5 rounded-lg">J3</div>
-                <div id="J4" class="bg-slate-200 px-10 py-5 rounded-lg">J4</div>
+                <div id="I" class="bg-slate-200 px-4 lg:px-10 py-2 lg:py-5 rounded-lg">I</div>
+                <div id="I1" class="bg-slate-200 px-4 lg:px-10 py-2 lg:py-5 rounded-lg">I1</div>
+                <div id="I2" class="bg-slate-200 px-4 lg:px-10 py-2 lg:py-5 rounded-lg">I2</div>
+                <div id="I3" class="bg-slate-200 px-4 lg:px-10 py-2 lg:py-5 rounded-lg">I3</div>
+                <div id="I4" class="bg-slate-200 px-4 lg:px-10 py-2 lg:py-5 rounded-lg">I4</div>
+                <div id="J" class="bg-slate-200 px-4 lg:px-10 py-2 lg:py-5 rounded-lg">J</div>
+                <div id="J1" class="bg-slate-200 px-4 lg:px-10 py-2 lg:py-5 rounded-lg">J1</div>
+                <div id="J2" class="bg-slate-200 px-4 lg:px-10 py-2 lg:py-5 rounded-lg">J2</div>
+                <div id="J3" class="bg-slate-200 px-4 lg:px-10 py-2 lg:py-5 rounded-lg">J3</div>
+                <div id="J4" class="bg-slate-200 px-4 lg:px-10 py-2 lg:py-5 rounded-lg">J4</div>
               </div>
             </div>
           </div>
@@ -303,14 +305,8 @@
           <div class="flex-4 p-10">
             <h2 class="text-3xl font-bold">Select Your Seat</h2>
 
-
-
-
-
-            <div class="bg-[#e7e7e7] w-[450px] rounded-lg p-4">
-
-
-              <div class="flex justify-evenly p-5 font-bold ">
+            <div class="bg-[#e7e7e7] w-auto lg:w-[450px] rounded-lg p-4">
+              <div class="flex justify-evenly p-5 font-bold">
                 <p>
                   Seat
                   <span class="text-white bg-[#1DD100] px-4 rounded-lg">0</span>
@@ -319,47 +315,87 @@
                 <p>price</p>
               </div>
 
+              <div
+                class="border-dashed border-2 border-[#030712] opacity-20 mt-10 mb-10"
+              ></div>
 
-
-
+              <div id="seat-input"></div>
 
               <div
-              class="border-dashed border-2 border-[#030712] opacity-20 mt-10 mb-10"
-            ></div>
+                class="border-dashed border-2 border-[#030712] opacity-20 mt-10 mb-10"
+              ></div>
 
-            <div id="seat-input">
+              <div class="font-bold flex justify-between">
+                <p>Total Prize</p>
+                <p>BDT: <span id="initial-prize">00</span></p>
+              </div>
 
+              <div class="flex">
+                <div class="p-4">
+                  <input
+                    class="p-2 rounded-lg"
+                    type="text"
+                    placeholder="Have any Coupon"
+                  />
+                </div>
+                <div class="p-4">
+                  <button
+                    class="p-2 px-2 lg:px-6 bg-[#5ad248] text-white rounded-lg"
+                  >
+                    Apply
+                  </button>
+                </div>
+              </div>
+
+              <div class="font-bold flex justify-between">
+                <p>Grand Total</p>
+                <p>BDT: <span id="initial-prize">00</span></p>
+              </div>
             </div>
+
+            <div class="my-10">
+              <div>
+                <label class="font-bold p-2" for="">Passenger Name*</label>
+              </div>
+
+              <input
+                class="p-2 w-full my-8"
+                type="text"
+                placeholder="Enter Your name"
+              />
+              <div>
+                <label class="font-bold p-2" for="">Phone Number* </label>
+              </div>
+
+              <input
+                class="p-2 w-full my-8"
+                type="tel"
+                placeholder="Enter Your Number"
+              />
+              <div>
+                <label class="font-bold p-2" for="">Email Id*</label>
+              </div>
+
+              <input
+                class="p-2 w-full my-8"
+                type="email"
+                placeholder="Enter Your Email"
+              />
+            </div>
+
+            <button class="btn btn-success w-full text-white">Next</button>
 
             <div
-            class="border-dashed border-2 border-[#030712] opacity-20 mt-10 mb-10"
-          ></div>
-
-          <div class="font-bold flex justify-between">
-            <p>Total Prize</p>
-            <p> BDT: <span id="initial-prize">00</span></p>
-          </div>
-
-          <div class="flex">
-            <div class="p-4"><input class="p-2" type="text" placeholder="Have any Coupon"></div>
-            <div class="p-4"><button class="p-2 px-6 bg-[#5ad248] text-white">Apply</button></div>
-            
-            
-          </div>
-
+              class="w-full flex justify-evenly my-10 underline underline-offset-1"
+            >
+              <a href="#">Terms and condition</a>
+              <a href="#">Cencalation Policy</a>
             </div>
-
-            
-  
-
-            
-
-
           </div>
-
-
         </div>
       </section>
+
+      <script src="JS/script.js"></script>
     </main>
   </body>
 </html>
