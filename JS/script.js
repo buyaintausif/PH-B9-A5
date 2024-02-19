@@ -77,16 +77,6 @@ button.addEventListener("click", function (event) {
     if (getPhone  ) {
         const addSec = document.getElementById('submit');
         addSec.classList.remove('hidden');
-
-        function hide(){
-            console.log('hiddeen');
-            const selecthidden = document.getElementById('last');
-              selecthidden.classList.remove('hidden');
-    
-          }
-
-
-  
        
       }
 
