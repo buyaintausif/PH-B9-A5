@@ -15,7 +15,7 @@
   </head>
 
   <body>
-    <header  class="w-auto lg:w-[1200px] m-auto">
+    <header id="header"   class="w-auto lg:w-[1200px] m-auto">
       <div class="navbar bg-base-100">
         <div class="navbar-start">
           <a class="btn btn-ghost text-xl lg:text-3xl font-extrabold uppercase"
@@ -34,7 +34,7 @@
       </div>
     </header>
 
-    <main >
+    <main id="main" class="" >
       <section class="w-auto lg:w-[1200px] m-auto">
         <div class="m-10">
           <div
@@ -161,7 +161,7 @@
                     src="images/seat-green.png"
                     alt=""
                   />
-                  <span class="font-extrabold">40</span> Seats left.
+                  <span id="sit" class="font-extrabold">40</span> Seats left.
                 </div>
               </div>
             </div>
@@ -228,68 +228,62 @@
             ></div>
 
             <div>
-              <div class="grid grid-cols-5 gap-1 lg:gap-6">
+              <div id="button" class="grid grid-cols-5 gap-1 lg:gap-6">
                 <div class="px-4 lg:px-10 py-2 lg:py-5 rounded-lg"></div>
                 <div class="px-4 lg:px-10 py-2 lg:py-5 rounded-lg"></div>
                 <div class="px-4 lg:px-10 py-2 lg:py-5 rounded-lg"></div>
                 <div class="px-4 lg:px-10 py-2 lg:py-5 rounded-lg"></div>
 
                 <div class="bg-slate-200 rounded-lg">Go</div>
-                <div id="A" class="bg-slate-200 px-4 lg:px-10 py-2 lg:py-5 rounded-lg">A</div>
+                <div  class="bg-slate-200 px-4 lg:px-10 py-2 lg:py-5 rounded-lg">A</div>
 
-                <div
-                  onclick="click()"
-                  id="A1"
-                  class="bg-slate-200 px-4 lg:px-10 py-2 lg:py-5 rounded-lg"
-                >
-                  A1
-                </div>
+                <div id="A1" class="bg-slate-200 px-4 lg:px-10 py-2 lg:py-5 rounded-lg" >A1</div>
                 <div id="A2" class="bg-slate-200 px-4 lg:px-10 py-2 lg:py-5 rounded-lg">A2</div>
                 <div id="A3" class="bg-slate-200 px-4 lg:px-10 py-2 lg:py-5 rounded-lg">A3</div>
                 <div id="A4" class="bg-slate-200 px-4 lg:px-10 py-2 lg:py-5 rounded-lg">A4</div>
-                <div id="B" class="bg-slate-200 px-4 lg:px-10 py-2 lg:py-5 rounded-lg">B</div>
+                <div  class="bg-slate-200 px-4 lg:px-10 py-2 lg:py-5 rounded-lg">B</div>
                 <div id="B1" class="bg-slate-200 px-4 lg:px-10 py-2 lg:py-5 rounded-lg">B1</div>
                 <div id="B2" class="bg-slate-200 px-4 lg:px-10 py-2 lg:py-5 rounded-lg">B2</div>
                 <div id="B3" class="bg-slate-200 px-4 lg:px-10 py-2 lg:py-5 rounded-lg">B3</div>
                 <div id="B4" class="bg-slate-200 px-4 lg:px-10 py-2 lg:py-5 rounded-lg">B4</div>
-                <div id="C" class="bg-slate-200 px-4 lg:px-10 py-2 lg:py-5 rounded-lg">C</div>
+                <div  class="bg-slate-200 px-4 lg:px-10 py-2 lg:py-5 rounded-lg">C</div>
                 <div id="C1" class="bg-slate-200 px-4 lg:px-10 py-2 lg:py-5 rounded-lg">C1</div>
                 <div id="C2" class="bg-slate-200 px-4 lg:px-10 py-2 lg:py-5 rounded-lg">C2</div>
                 <div id="C3" class="bg-slate-200 px-4 lg:px-10 py-2 lg:py-5 rounded-lg">C3</div>
                 <div id="C4" class="bg-slate-200 px-4 lg:px-10 py-2 lg:py-5 rounded-lg">C4</div>
-                <div id="D" class="bg-slate-200 px-4 lg:px-10 py-2 lg:py-5 rounded-lg">D</div>
+                <div class="bg-slate-200 px-4 lg:px-10 py-2 lg:py-5 rounded-lg">D</div>
                 <div id="D1" class="bg-slate-200 px-4 lg:px-10 py-2 lg:py-5 rounded-lg">D1</div>
                 <div id="D2" class="bg-slate-200 px-4 lg:px-10 py-2 lg:py-5 rounded-lg">D2</div>
                 <div id="D3" class="bg-slate-200 px-4 lg:px-10 py-2 lg:py-5 rounded-lg">D3</div>
                 <div id="D4" class="bg-slate-200 px-4 lg:px-10 py-2 lg:py-5 rounded-lg">D4</div>
 
-                <div id="E" class="bg-slate-200 px-4 lg:px-10 py-2 lg:py-5 rounded-lg">E</div>
+                <div  class="bg-slate-200 px-4 lg:px-10 py-2 lg:py-5 rounded-lg">E</div>
                 <div id="E1" class="bg-slate-200 px-4 lg:px-10 py-2 lg:py-5 rounded-lg">E1</div>
                 <div id="E2" class="bg-slate-200 px-4 lg:px-10 py-2 lg:py-5 rounded-lg">E2</div>
                 <div id="E3" class="bg-slate-200 px-4 lg:px-10 py-2 lg:py-5 rounded-lg">E3</div>
                 <div id="E4" class="bg-slate-200 px-4 lg:px-10 py-2 lg:py-5 rounded-lg">E4</div>
-                <div id="F" class="bg-slate-200 px-4 lg:px-10 py-2 lg:py-5 rounded-lg">F</div>
+                <div  class="bg-slate-200 px-4 lg:px-10 py-2 lg:py-5 rounded-lg">F</div>
                 <div id="F1" class="bg-slate-200 px-4 lg:px-10 py-2 lg:py-5 rounded-lg">F1</div>
                 <div id="F2" class="bg-slate-200 px-4 lg:px-10 py-2 lg:py-5 rounded-lg">F2</div>
                 <div id="F3" class="bg-slate-200 px-4 lg:px-10 py-2 lg:py-5 rounded-lg">F3</div>
                 <div id="F4" class="bg-slate-200 px-4 lg:px-10 py-2 lg:py-5 rounded-lg">F4</div>
-                <div id="G" class="bg-slate-200 px-4 lg:px-10 py-2 lg:py-5 rounded-lg">G</div>
+                <div  class="bg-slate-200 px-4 lg:px-10 py-2 lg:py-5 rounded-lg">G</div>
                 <div id="G1" class="bg-slate-200 px-4 lg:px-10 py-2 lg:py-5 rounded-lg">G1</div>
                 <div id="G2" class="bg-slate-200 px-4 lg:px-10 py-2 lg:py-5 rounded-lg">G2</div>
                 <div id="G3" class="bg-slate-200 px-4 lg:px-10 py-2 lg:py-5 rounded-lg">G3</div>
                 <div id="G4" class="bg-slate-200 px-4 lg:px-10 py-2 lg:py-5 rounded-lg">G4</div>
-                <div id="H" class="bg-slate-200 px-4 lg:px-10 py-2 lg:py-5 rounded-lg">H</div>
+                <div  class="bg-slate-200 px-4 lg:px-10 py-2 lg:py-5 rounded-lg">H</div>
                 <div id="H1" class="bg-slate-200 px-4 lg:px-10 py-2 lg:py-5 rounded-lg">H1</div>
                 <div id="H2" class="bg-slate-200 px-4 lg:px-10 py-2 lg:py-5 rounded-lg">H2</div>
                 <div id="H3" class="bg-slate-200 px-4 lg:px-10 py-2 lg:py-5 rounded-lg">H3</div>
                 <div id="H4" class="bg-slate-200 px-4 lg:px-10 py-2 lg:py-5 rounded-lg">H4</div>
 
-                <div id="I" class="bg-slate-200 px-4 lg:px-10 py-2 lg:py-5 rounded-lg">I</div>
+                <div  class="bg-slate-200 px-4 lg:px-10 py-2 lg:py-5 rounded-lg">I</div>
                 <div id="I1" class="bg-slate-200 px-4 lg:px-10 py-2 lg:py-5 rounded-lg">I1</div>
                 <div id="I2" class="bg-slate-200 px-4 lg:px-10 py-2 lg:py-5 rounded-lg">I2</div>
                 <div id="I3" class="bg-slate-200 px-4 lg:px-10 py-2 lg:py-5 rounded-lg">I3</div>
                 <div id="I4" class="bg-slate-200 px-4 lg:px-10 py-2 lg:py-5 rounded-lg">I4</div>
-                <div id="J" class="bg-slate-200 px-4 lg:px-10 py-2 lg:py-5 rounded-lg">J</div>
+                <div class="bg-slate-200 px-4 lg:px-10 py-2 lg:py-5 rounded-lg">J</div>
                 <div id="J1" class="bg-slate-200 px-4 lg:px-10 py-2 lg:py-5 rounded-lg">J1</div>
                 <div id="J2" class="bg-slate-200 px-4 lg:px-10 py-2 lg:py-5 rounded-lg">J2</div>
                 <div id="J3" class="bg-slate-200 px-4 lg:px-10 py-2 lg:py-5 rounded-lg">J3</div>
@@ -309,7 +303,7 @@
               <div class="flex justify-evenly p-5 font-bold">
                 <p>
                   Seat
-                  <span class="text-white bg-[#1DD100] px-4 rounded-lg">0</span>
+                  <span id="seat" class="text-white bg-[#1DD100] px-4 rounded-lg">0</span>
                 </p>
                 <p>class</p>
                 <p>price</p>
@@ -319,7 +313,20 @@
                 class="border-dashed border-2 border-[#030712] opacity-20 mt-10 mb-10"
               ></div>
 
-              <div id="seat-input"></div>
+              <div class="flex justify-evenly p-2 font-bold ">
+                <p >
+                  Sit 1
+                </p>
+                <p>Sit 2</p>
+                <p>sit 3</p>
+                <p>sit 4</p>
+              </div>
+
+              <div  id="list-container" class="flex justify-evenly p-6 font-bold ">
+                
+              </div>
+
+
 
               <div
                 class="border-dashed border-2 border-[#030712] opacity-20 mt-10 mb-10"
@@ -332,14 +339,14 @@
 
               <div class="flex justify-center">
                 <div class="p-4">
-                  <input
+                  <input id="input-id"
                     class="p-2 rounded-lg"
                     type="text"
                     placeholder="Have any Coupon"
                   />
                 </div>
                 <div class="p-4">
-                  <button
+                  <button id="set-coupon"
                     class="p-2 px-2 lg:px-6 bg-[#5ad248] text-white rounded-lg"
                   >
                     Apply
@@ -349,7 +356,7 @@
 
               <div class="font-bold flex justify-between">
                 <p>Grand Total</p>
-                <p>BDT: <span id="initial-prize">00</span></p>
+                <p>BDT: <span id="fixed-prize">00</span></p>
               </div>
             </div>
 
@@ -367,7 +374,7 @@
                 <label class="font-bold p-2" for="">Phone Number* </label>
               </div>
 
-              <input
+              <input id="phone"
                 class="p-2 w-full my-8"
                 type="tel"
                 placeholder="Enter Your Number"
@@ -383,7 +390,7 @@
               />
             </div>
 
-            <button class="btn btn-success w-full text-white">Next</button>
+            <button onclick="hide()" id="submit" class="btn btn-success w-full text-white hidden" >Next</button>
 
             <div
               class="w-full flex justify-evenly my-10 underline underline-offset-1"
@@ -399,33 +406,8 @@
 
 <!-- Last section -->
 
-      <section hidden class="w-auto lg:w-[800px] m-auto">
-
-        <div class="flex items-center justify-center my-14">
-  
-          <img src="images/success.png" alt="">
-        
-        </div>
-  
-        <div class="text-3xl flex justify-center items-center text-[#45f881] mb-10"><h2>Success</h2></div>
-  
-        <div class="border-dashed border-2 border-[#b3b3fb]"></div>
-  
-        <div class="mt-5 mb-10">
-          <p class="text-2xl font-bold text-center">Your ticket booked from Concord Transport.</p>
-          <p class="text-2xl font-bold text-center">Thanks for booking from us. hope you will enjoy with Concord.</p>
-          <p class="font-light text-xl text-center mt-6">Shortly You will receive a confirmation mail </p>
-        </div>
-  
-        <div class="flex justify-center items-center mb-10"> 
-          <button class="btn btn-success text-xl px-16 text-white">Continue</button>
-        </div>
-       
-      
-  
-      </section>
-
-
+     
+    </main>
 
       <section class="w-auto lg:w-[1200px] m-auto">
        
@@ -433,10 +415,41 @@
       </section>
 
 
-     
+   <footer>
 
-      <script src="JS/script.js"></script>
-    </main>
+    <section  id="last" class="w-auto lg:w-[800px] m-auto hidden">
+
+      <div class="flex items-center justify-center my-14">
+
+        <img src="images/success.png" alt="">
+      
+      </div>
+
+      <div class="text-3xl flex justify-center items-center text-[#45f881] mb-10"><h2>Success</h2></div>
+
+      <div class="border-dashed border-2 border-[#b3b3fb]"></div>
+
+      <div class="mt-5 mb-10">
+        <p class="text-2xl font-bold text-center">Your ticket booked from Concord Transport.</p>
+        <p class="text-2xl font-bold text-center">Thanks for booking from us. hope you will enjoy with Concord.</p>
+        <p class="font-light text-xl text-center mt-6">Shortly You will receive a confirmation mail </p>
+      </div>
+
+      <div class="flex justify-center items-center mb-10"> 
+        <button class="btn btn-success text-xl px-16 text-white">Continue</button>
+      </div>
+     
+    
+
+    </section>
+
+
+
+    <script src="JS/fuction.js"></script>
+    <script src="JS/script.js"></script>
+   </footer>  
+
+    
 
    
   </body>
